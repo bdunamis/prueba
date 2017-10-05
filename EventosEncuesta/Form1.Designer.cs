@@ -60,7 +60,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(776, 11);
+            this.button2.Location = new System.Drawing.Point(806, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(128, 81);
             this.button2.TabIndex = 2;
@@ -132,6 +132,7 @@
             this.Controls.Add(this.dgvdetalle);
             this.Name = "Form1";
             this.Text = "Consulta Eventos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvdetalle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
