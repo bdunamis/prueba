@@ -1,0 +1,1 @@
+﻿ Select Usuario, Clave  from usuario where usuario = 'CONTADOR1' and clave = '123'  and  activo=1 
